@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from sklearn import linear_model
 from sklearn.preprocessing import StandardScaler  # 引入归一化的包
-from sklearn.cross_validation import cross_val_score
+from sklearn.model_selection import cross_val_score
 import xlrd
 
 
@@ -109,4 +109,3 @@ if __name__ == "__main__":
     linearRegressionFile("3.xlsx")
     linearRegressionFile("4.xlsx")
     linearRegressionFile("5.xlsx")
-    linearRegressionFile("9.xlsx")
